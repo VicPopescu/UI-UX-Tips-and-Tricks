@@ -1,5 +1,7 @@
 ---Round & Auto resized --- Image container ---
 
+Example:
+https://jsbin.com/bipiqi/edit
 
 HTML:
 <p id="roundImageFit"></p>
