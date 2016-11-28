@@ -1,0 +1,28 @@
+---Round & Auto resized --- Image container ---
+
+
+HTML:
+<p id="roundImageFit"></p>
+
+CSS:
+#roundImageFit{
+  
+    background: url('http://www.awesomelycute.com/gallery/2015/05/cute-baby-penguin-8.jpg');
+    margin: 0 auto; /*if you want it centered */
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+  
+    /* background */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    /* border */ /* make it round */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
