@@ -1,2 +1,2 @@
 # UI-UX-Tips-and-Tricks
-HTML, CSS Helpers
+HTML, CSS, JS -  Helpers
