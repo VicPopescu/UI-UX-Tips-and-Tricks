@@ -47,12 +47,11 @@ $.xhrPool.clearCompleted = function (jqXHR) {
  * @description AJAX global setup
  */
 $.ajaxSetup({
-    beforeSend: function (jqXHR, that) {
+    beforeSend: function (jqXHR) {
 
         //set custom url property
         var url = this.url.match(/^([^?]+)/)[0];
         jqXHR.API = url;
-
         
         $.xhrPool.abordPrevious(jqXHR);         //  abord previous duplicate call, if any
         $.xhrPool.push(jqXHR);                  //  add current requst to the poll
